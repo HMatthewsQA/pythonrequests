@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>{{ title }} - Page</title>
+    <a href="{{ url_for('home') }}">Home Page</a>
+    <a href="{{ url_for('generate') }}">Generate Page</a>
+</head>
+<body>
+{% block body_content %}
+{% endblock %}
+</body>
+</html>
